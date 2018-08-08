@@ -1,7 +1,6 @@
 require 'pry'
 class Person
   attr_reader :name, :happiness, :hygiene
-  attr_writer
   attr_accessor :bank_account
 
 
@@ -63,6 +62,7 @@ class Person
     self.happiness += 2
     self.hygiene -= 3
     "♪ another one bites the dust ♫"
+
   end
 
   def call_friend(friend)
