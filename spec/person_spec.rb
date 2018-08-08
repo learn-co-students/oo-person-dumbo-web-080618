@@ -1,3 +1,4 @@
+# require_relative '../lib/person.rb'
 RSpec.describe "Person" do
 
   let(:stella) { Person.new("Stella") }
